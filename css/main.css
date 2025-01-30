@@ -412,6 +412,11 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
   transition: background-color 0.3s ease, transform 0.2s ease, -webkit-transform 0.2s ease;
   margin-bottom: 50px;
+  cursor: url("data:image/svg+xml,%3Csvg width='19' height='25' viewBox='0 0 19 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.62363 0C7.7772 0 8.76357 1.0083 8.76357 2.1875V7.06304C9.596 6.26519 11.1936 6.16724 12.2276 7.37061C13.3423 6.67295 14.8164 7.26577 15.2704 8.17383C17.6698 7.73564 18.75 9.24541 18.75 11.7188C18.75 11.8528 18.7401 12.367 18.7405 12.5C18.7487 15.5259 17.2236 16.2546 16.8696 18.5416C16.7814 19.1115 16.289 19.5312 15.7122 19.5312H7.33696L7.33691 19.5312C6.44014 19.5306 5.58452 19.0132 5.19605 18.1413C4.56157 16.7309 2.80161 13.4825 1.42051 12.8906C0.53208 12.5099 0.000390829 11.8465 2.04357e-07 10.9375C-0.000683389 9.2665 1.71377 8.11758 3.26699 8.78325C3.67515 8.9582 4.08096 9.18911 4.48369 9.47432V2.1875C4.48369 1.04248 5.48677 0 6.62363 0ZM6.64062 20.3125H16.0156C16.6628 20.3125 17.1875 20.8372 17.1875 21.4844V23.8281C17.1875 24.4753 16.6628 25 16.0156 25H6.64062C5.99341 25 5.46875 24.4753 5.46875 23.8281V21.4844C5.46875 20.8372 5.99341 20.3125 6.64062 20.3125ZM14.8438 21.6797C14.3044 21.6797 13.8672 22.1169 13.8672 22.6562C13.8672 23.1956 14.3044 23.6328 14.8438 23.6328C15.3831 23.6328 15.8203 23.1956 15.8203 22.6562C15.8203 22.1169 15.3831 21.6797 14.8438 21.6797Z' fill='black'/%3E%3C/svg%3E"), pointer;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .bnt_learn:active {
@@ -955,7 +960,7 @@ body {
   max-width: 400px;
   border-radius: 50px;
   margin-left: auto;
-  background-image: url("/lesson/assest/img/2Vector 56.svg");
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="211" height="151" viewBox="0 0 211 151" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3722 64.3406C-16.6737 32.5297 16.442 1.8134 74.7273 0.984771C190.605 8.6209 216.754 111.245 207.997 134.254C199.239 157.263 173.162 157.891 134.525 111.019C95.8885 64.1459 46.4295 104.104 11.3722 64.3406Z" stroke="white" stroke-width="1.5"/></svg>');
   background-repeat: no-repeat;
   background-size: 220px;
   background-position: calc(100% - 20px) calc(100% - 20px);
@@ -966,7 +971,7 @@ body {
   max-width: 400px;
   border-radius: 50px;
   margin-left: auto;
-  background-image: url("/lesson/assest/img/3bg-image.svg");
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="65" height="51" viewBox="0 0 65 51" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="32.5222" cy="25.427" rx="34.0274" ry="20.1071" transform="rotate(150 32.5222 25.427)" stroke="white" stroke-width="1.5"/></svg>');
   background-repeat: no-repeat;
   background-size: 65px;
   background-position: calc(100% - 20px) 20px;
@@ -977,7 +982,7 @@ body {
   max-width: 400px;
   border-radius: 50px;
   margin-left: auto;
-  background-image: url("/lesson/assest/img/4card_vector.svg"), url("/lesson/assest/img/4Ellipse 61.svg");
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="300" height="229" viewBox="0 0 300 229" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M58.4414 226.712C-2.09276 238.919 -16.7171 174.795 24.6734 100.691C118.67 -39.8767 267.122 1.86546 289.761 29.6612C312.401 57.457 294.207 90.7983 206.968 105.395C119.729 119.991 134.109 211.454 58.4414 226.712Z" stroke="white" stroke-width="1.5"/></svg>'), url('data:image/svg+xml;charset=UTF-8,<svg width="61" height="44" viewBox="0 0 61 44" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="30.3898" cy="22.0324" rx="30.9248" ry="18.2737" transform="rotate(20.7184 30.3898 22.0324)" stroke="white" stroke-width="1.5"/></svg>');
   background-repeat: no-repeat, no-repeat;
   background-size: 325px, 61px;
   background-position: calc(0% + 20px) calc(0% + 20px), calc(100% - 20px) calc(100% - 20px);
